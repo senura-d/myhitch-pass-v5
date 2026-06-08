@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" width="720" height="540" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00AEEF"/>
+      <stop offset="1" stop-color="#0096CF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect width="720" height="540" fill="white"/>
+
+  <!-- Email card -->
+  <g filter="url(#shadow)">
+    <rect x="20" y="20" width="680" height="500" rx="24" fill="white" stroke="#E2E8F0"/>
+
+    <!-- Email header -->
+    <path d="M 20 44 Q 20 20 44 20 L 676 20 Q 700 20 700 44 L 700 110 L 20 110 Z" fill="url(#header)"/>
+    <circle cx="60" cy="65" r="20" fill="white" opacity="0.18"/>
+    <text x="60" y="72" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="900" fill="white" text-anchor="middle">M</text>
+    <text x="96" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="900" fill="white">MYHitch Pass</text>
+    <text x="96" y="82" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#E6F8FF" font-weight="600">noreply@myhitchpass.com.au</text>
+
+    <!-- Subject -->
+    <text x="44" y="160" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="900" fill="#94A3B8" letter-spacing="2">SUBJECT</text>
+    <text x="44" y="190" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="900" fill="#0F172A">Your Organiser login details</text>
+
+    <line x1="44" y1="215" x2="676" y2="215" stroke="#E2E8F0" stroke-width="1"/>
+
+    <!-- Body -->
+    <text x="44" y="248" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" fill="#1E293B" font-weight="700">Hi there,</text>
+    <text x="44" y="278" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#475569">Welcome to MYHitch Pass! Here are your organiser login details.</text>
+    <text x="44" y="300" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#475569">Keep them somewhere safe.</text>
+
+    <!-- Credentials box -->
+    <rect x="44" y="324" width="632" height="120" rx="16" fill="#F8FAFC" stroke="#00AEEF" stroke-width="2"/>
+
+    <text x="68" y="356" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="900" fill="#00AEEF" letter-spacing="2">USERNAME</text>
+    <text x="68" y="388" font-family="'Space Mono', monospace" font-size="20" font-weight="700" fill="#0F172A">organiser_youname</text>
+
+    <text x="380" y="356" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="900" fill="#00AEEF" letter-spacing="2">PASSWORD</text>
+    <text x="380" y="388" font-family="'Space Mono', monospace" font-size="20" font-weight="700" fill="#0F172A">Tk7B9x-PassW0rd!</text>
+
+    <line x1="68" y1="408" x2="652" y2="408" stroke="#E2E8F0"/>
+    <text x="68" y="432" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#475569">→ Log in at <tspan font-weight="800" fill="#00AEEF">myhitchpass.com.au/login</tspan></text>
+
+    <!-- CTA button -->
+    <rect x="44" y="468" width="220" height="48" rx="14" fill="#00AEEF"/>
+    <text x="154" y="498" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="900" fill="white" text-anchor="middle">Open my dashboard →</text>
+  </g>
+</svg>

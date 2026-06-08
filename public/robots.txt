@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://myhitchpass.com.au/sitemap.xml

@@ -1,0 +1,6 @@
+{
+  "name": "MYHitch Pass",
+  "description": "Modern, mobile-first event discovery and automated e-ticketing platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
