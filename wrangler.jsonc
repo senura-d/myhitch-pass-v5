@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "myhitch-pass-v4",
+  "name": "myhitch-pass-v3",
   "compatibility_date": "2026-05-31",
   "main": ".open-next/worker.js",
   "observability": {
